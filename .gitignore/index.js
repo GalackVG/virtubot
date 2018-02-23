@@ -13,7 +13,7 @@ bot.login ("NDE2NjUzMTgwNDY2NzU3NjM0.DXHmrQ.Ab4bNavUkCfyuXT3eTG1c1rRlUE");
 
 bot.on('message', message =>{
     if (message.content === prefix + "help"){
-        message.channel.sendMessage("Liste des commandes: \n -*help \n -*créateur");
+        message.channel.sendMessage("Liste des commandes: \n - prefix + help \n - prefix + créateur");
     }
     if (message.content === "Salut"){
         message.reply("Bien le bonjour. :)");
