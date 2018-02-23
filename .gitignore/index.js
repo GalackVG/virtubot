@@ -19,7 +19,7 @@ bot.on('message', message =>{
         message.reply("Bien le bonjour. :)");
         console.log("Commande Salut effectué");
     }
-        if (message.content === "créateur"){
+        if (message.content === "*créateur"){
             message.reply("Mon créateur et Galack. :)");
             console.log("Commande Salut effectué");
 
