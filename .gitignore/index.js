@@ -40,7 +40,7 @@ bot.on('message', message =>{
 
     }
         if (message.content === "*créateur"){
-            message.reply("Mon créateur et Galack. :)");
+            message.reply("Mon créateur est Galack. :)");
             console.log("Commande Salut effectué");
 
 
