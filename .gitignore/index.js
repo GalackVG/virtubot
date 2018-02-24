@@ -45,14 +45,14 @@ bot.on('message', message =>{
 
     }
     if (message.content === "*créateur"){
-            message.reply("Mon créateur et Galack. :)");
+            message.reply("Mon créateur est Galack. :)");
             console.log("Commande Salut effectué");
 
     }
     if (message.content === prefix + "infos"){
         var embed = new Discord.RichEmbed()
-            .setTitle("Information de VituBot")
-            .setDescription("VirtuBot à été crée par Galack")
+            .setTitle("Information de VirtuBot")
+            .setDescription("VirtuBot a été crée par Galack")
             .addField("*help","Toutes les commandes", true)
             .addField("Plus d'infos"," Vous pouvez contactez Galack sur Facebook => (https://www.facebook.com/GalackNXP)", true)
             .setColor("0x2E64FE")
