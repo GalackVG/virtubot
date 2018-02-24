@@ -117,7 +117,7 @@ bot.on('message', message => {
     }
 
     bot.on('message', message => {
-        if (message.content === 'ℋ𝓪𝓬𝓴𝒆𝓭 𝓫𝔂 𝓥𝓲𝓻𝓽𝓾𝓪𝓵𝓲𝓽𝔂-𝓖𝓱𝓸𝓼𝓽.𝒆𝓾'){
+        if (message.content === ('ℋ𝓪𝓬𝓴𝒆𝓭 𝓫𝔂 𝓥𝓲𝓻𝓽𝓾𝓪𝓵𝓲𝓽𝔂-𝓖𝓱𝓸𝓼𝓽.𝒆𝓾'){
                message.channel.send('@everyone Viens nous rejoindre discord.gg/rR9Ndfk :heart: virtuality-ghost.eu :heart: Forum N°1 du partage en ligne #GalackLeBoss')
         
         }
